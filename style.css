@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(17,16,15);
+    background: linear-gradient(90deg, rgba(17,16,15,1) 4%, rgba(101,99,99,1) 53%, rgba(195,189,189,1) 96%);
+    
+}
+
+#heading{
+    text-align: center;
+    margin: 1rem 0 3rem;
+    font-size: 5rem;
+    font-weight: 50;
+    font-family: 'Indie Flower', cursive;
+    color: blanchedalmond;
+}
+
+#text_area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 6rem;
+  
+}
+
+#inp{
+    font-size: 1.6rem;
+    font-family: 'Bad Script', cursive;
+    font-weight: bolder;
+    height: 50px;
+    width: 450px;
+    padding: 0.5rem 1rem;
+    margin: 0.25rem;
+    border: 1px solid black;
+    border-radius: 25px;
+    color: black;
+    outline: none;
+    background: rgb(17,16,15);
+    background: linear-gradient(90deg, rgba(17,16,15,1) 0%, rgba(195,189,189,1) 0%, rgba(101,99,99,0.9920167896260067) 100%);
+    box-shadow: rgba(0, 0, 0, 0.555) 0px 54px 55px, rgba(0, 0, 0, 0.301) 0px -12px 30px, rgba(0, 0, 0, 0.349) 0px 4px 6px, rgba(0, 0, 0, 0.336) 0px 12px 13px, rgba(0, 0, 0, 0.24) 0px -3px 5px;
+}
+
+
+#btn{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    font-size: 1.6rem;
+    outline: none;
+    border: none;
+    margin: 0.5rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    background: rgb(17,16,15);
+    background: linear-gradient(90deg, rgba(17,16,15,1) 0%, rgba(195,189,189,1) 0%, rgba(101,99,99,0.9920167896260067) 100%);
+    box-shadow: rgba(0, 0, 0, 0.753) 0px 54px 55px, rgba(0, 0, 0, 0.603) 0px -12px 30px, rgba(0, 0, 0, 0.705) 0px 4px 6px, rgba(0, 0, 0, 0.678) 0px 12px 13px, rgba(0, 0, 0, 0.63) 0px -3px 5px;
+
+}
+
+#btn:hover{
+    opacity: 0.7;
+}
+
+.list_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40vw;
+     margin-top: 5rem;
+    margin-left: 30vw;
+    border-radius: 25px;
+    outline: none;
+    box-shadow: rgba(15, 15, 15, 0.589) 0px 30px 60px -12px inset, rgba(92, 90, 90, 0.596) 0px 18px 36px -18px inset;
+}
+
+.list{
+    padding: 0.5rem;
+    margin-bottom: 0.25rem;
+    
+}
+
+.input_item{
+    background: none;
+    color: black;
+    outline: none;
+    border: none;
+    width: 350px;
+    font-size: 1.6rem;
+    cursor: pointer;
+    font-family: 'Bad Script', cursive;
+    font-weight: bolder;
+   
+}
+
+.edit,.delete{
+    font-size: 1.6rem;
+    margin: 0 0.75rem;
+    outline: none;
+    border: none;
+    background-color:transparent;
+    cursor: pointer;
+
+}
+
+.edit:hover{
+    opacity: 0.7;
+    color: blanchedalmond;
+}
+
+.delete:hover{
+    opacity:0.7;
+    color: blanchedalmond;
+}
+
+.strike{
+    text-decoration: line-through;
+}
